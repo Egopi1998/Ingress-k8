@@ -23,5 +23,5 @@ spec:
       - name: frontend
         image: nginx:{{ .Values.Deployment.imageVersion }}
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         imagePullPolicy: Always
