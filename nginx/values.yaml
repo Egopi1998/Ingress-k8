@@ -1,0 +1,6 @@
+Deployment:
+  imageVersion: v1.0
+  replicas: 2
+configmap:
+  port: 80
+# Compare this snippet from Ingress-k8/nginx/values.yaml:
