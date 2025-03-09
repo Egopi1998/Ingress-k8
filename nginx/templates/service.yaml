@@ -9,5 +9,5 @@ spec:
     tier: web
   ports:
   - protocol: TCP
-    port: 80 #service-port
+    port: 8080 #service-port
     targetPort: {{ .Values.configmap.port }} #target-port means the port on which the application is running(container port)

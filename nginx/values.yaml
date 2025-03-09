@@ -2,5 +2,5 @@ Deployment:
   imageVersion: latest
   replicas: 2
 configmap:
-  port: 80
+  port: 8080
 # Compare this snippet from Ingress-k8/nginx/values.yaml:
